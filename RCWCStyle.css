@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #d8d9d8;
+
+}
+
+/* NAVIGATION */
+
+ul {
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  font-size: 18px;
+  margin: 16px 20px;
+  text-transform: uppercase;
+}
+
+.nav {
+  text-align: center;
+  margin: auto;
+  background-color: #ffffff;
+  height: 50px;
+  width: 100%;
+}
+
+a:link { /* a normal, unvisited link */
+  color: Black;
+  text-decoration: none;
+}
+a:visited { /* a link the user has visited */
+  color: Black;
+  text-decoration: none;
+}
+
+a:hover { /* a link when the user mouses over it */
+  color: DarkRed;
+  text-decoration: none;
+}
+
+a:active {
+  color: DarkRed; /* a link the moment it has been clicked */
+  text-decoration: none;
+}
+
+/* PAGE HEADER */
+
+.header {
+  background-color: DarkRed;
+  height: 175px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  top: 50px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+/* HEADER TITLE */
+
+h1 {
+  font-family: 'Oswald', sans-serif;
+  font-size: 50px;
+  margin: 0px auto;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+/* HEADER SUBTITLE */
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px auto;
+  letter-spacing: 2px;
+  color: #d8d9d8;
+}
+
+/* SOCIAL MEDIA ICONS */
+
+.media {
+  line-height: 0px;
+}
+
+.socialmedia {
+  height: 40px;
+  width: 40px;
+}
+
+/* CONTENT */
+
+.content {
+  margin: auto;
+  width: 800px;
+  margin-top: 0px;
+  min-height: 1200px;
+}
+
+/* MAIN PAGE BOXES */
+
+.container {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin: auto;
+  border: 10px double #ffffff;
+  margin-top: 10px;
+  padding: 30px 30px;
+  font-size: 25px;
+  text-align: justify;
+}
+
+p {
+  padding: 10px 10px;
+  font-size: 22px;
+  text-align: justify;
+}
+
+/* MAIN PAGE HEADINGS */
+
+h4{
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: DarkRed;
+  letter-spacing: 2px;
+}
+
+h6 {
+  text-align: center;
+}
+
+/* MAIN PAGE IMAGE */
+
+.writer {
+  width: 800px;
+  height: auto;
+  margin-bottom: 25px;
+  margin-top: 20px;
+}
+
+/* VIEW MORE LINK */ 
+
+.viewmore {
+  text-transform: uppercase;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.viewmore a:link { /* a normal, unvisited link */
+  color: DarkRed;
+  text-decoration: none;
+}
+.viewmore a:visited { /* a link the user has visited */
+  color: DarkRed;
+  text-decoration: none;
+}
+
+.viewmore a:hover { /* a link when the user mouses over it */
+  color: Black;
+  text-decoration: none;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.viewmore a:active {
+  color: Black; /* a link the moment it has been clicked */
+  text-decoration: none;
+}
+
+/* COLUMNS */
+
+.left { 
+  float: left; 
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+.right { 
+  float: right;
+  width: 50%;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  margin: auto;
+}
+
+/* MAILING LIST LINK */ 
+
+.maillist {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: DarkRed;
+  margin: auto;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.maillist a:link { /* a normal, unvisited link */
+  color: DarkRed;
+  text-decoration: none;
+}
+.maillist a:visited { /* a link the user has visited */
+  color: DarkRed;
+  text-decoration: none;
+}
+
+.maillist a:hover { /* a link when the user mouses over it */
+  color: Black;
+  text-decoration: none;
+  letter-spacing: 4px;
+  margin-bottom: 15px;
+}
+
+.maillist a:active {
+  color: Black; /* a link the moment it has been clicked */
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+.foot {
+  background-color: DarkRed;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.foottitle {
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+  padding-top: 15px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  letter-spacing: 3px;
+  color: #ffffff;
+}
+
+.footnav {
+  text-align: center;
+  margin: auto;
+  padding-bottom: 25px;
+  height: 50px;
+  width: 100%;
+}
+
+.footnav a:link { /* a normal, unvisited link */
+  color: #d8d9d8;
+  text-decoration: none;
+}
+.footnav a:visited { /* a link the user has visited */
+  color: #d8d9d8;
+  text-decoration: none;
+}
+
+.footnav a:hover { /* a link when the user mouses over it */
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footnav a:active {
+  color: #ffffff; /* a link the moment it has been clicked */
+  text-decoration: none;
+}
+
+/* OTHER PAGES */
+
+.pageheading {
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  color: DarkRed;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+.title {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px auto;
+  letter-spacing: 2px;
+  color: Black;
+  font-size: 25px;
+}
+
+.sub {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0px auto;
+  letter-spacing: 2px;
+  color: DarkRed;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.descr {
+  padding: 10px 10px;
+  font-size: 15px;
+  text-align: justify;
+}
+
+.contact {
+  text-transform: uppercase;
+  font-size: 30px;
+}
